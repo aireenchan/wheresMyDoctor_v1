@@ -2813,15 +2813,15 @@ input[type="submit"].btn.btn-mini {
 
 /**wmd**/
 .navbar-inner{
- background-color: #045fa8 !important;
-  background-image: -moz-lin	ear-gradient(top, #0470c8, #035292) !important;
-  background-image: -ms-linear-gradient(top, #0470c8, #035292) !important;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0470c8), to(#035292)) !important;
-  background-image: -webkit-linear-gradient(top, #0470c8, #035292) !important;
-  background-image: -o-linear-gradient(top, #0470c8, #035292) !important;
-  background-image: linear-gradient(top, #0470c8, #035292) !important;
+ background-color: #ffffff !important;
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff) !important;
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff) !important;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff)) !important;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff) !important;
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff) !important;
+  background-image: linear-gradient(top, #ffffff, #ffffff) !important;
   background-repeat: repeat-x !important;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0470c8', endColorstr='#035292', GradientType=0) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0) !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -4010,8 +4010,7 @@ a.thumbnail:hover {
 }
 
 .hero-unit {
- background-image: url("../img/extra_clean_paper.png");
- background-repeat: repeat;
+ background-color: #ffffff;
  margin-bottom: 0;
  
 }
@@ -4031,7 +4030,7 @@ a.thumbnail:hover {
 }
 
 .hero-unit p {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .highlight{
