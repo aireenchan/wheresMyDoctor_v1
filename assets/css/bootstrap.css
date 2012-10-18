@@ -1886,6 +1886,7 @@ table .span24 {
   border-bottom: 4px solid #000000;
   content: "\2191";
 }
+
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;
@@ -2825,9 +2826,9 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 .navbar .container {
   width: auto;
@@ -4064,26 +4065,28 @@ a.thumbnail:hover {
 }
 
 a.facebook{
-width: 34px;
-height: 34px;
-background-image:url("../img/social.png");
+width: 44px;
+height: 44px;
+background-image:url("../img/socialLogo.png");
 background-position: 0 0;
 display:inline-block;
 border:none;
+margin-right: 5px;
 }
 
 a.twitter{
-width: 34px;
-height: 34px;
-background:url("../img/social.png") 66px 0;
+width: 44px;
+height: 44px;
+background:url("../img/socialLogo.png") 89px 0;
 border:none;
 display:inline-block;
+margin-right: 5px;
 }
 
 a.blogger{
-width: 34px;
-height: 34px;
-background:url("../img/social.png") 33px 0;
+width: 44px;
+height: 44px;
+background:url("../img/socialLogo.png") 44px 0;
 border:none;
 display:inline-block;
 }
